@@ -5,20 +5,19 @@ layout: home
 hero:
   name: "Mitchell Simon"
   text: "Software Engineer"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  tagline: Specializing in web, mobile, and dev-ops
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Web
+    details:
+      Designed, developed, and deployed multiple full-stack web applications. Using
+      technologies like React.js, Ruby on Rails, Phoenix (Elixir), and Golang.
+  - title: Mobile
+    details:
+      Extensive React-Native experience through production-level projects used by
+      thousands of users to this day.
+  - title: DevOps
+    details:
+      A love of automation and a start in system administration helps me stay interested in
+      the latest dev-ops practices and tooling used by companies, both large and small.
 ---
