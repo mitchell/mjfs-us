@@ -1,0 +1,18 @@
+{
+  "name": "mjfs-us",
+  "module": "index.md",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.29"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
+}
