@@ -13,7 +13,7 @@ const { text, copy, isSupported } = useClipboard();
 </script>
 
 <template>
-  <div v-if="isSupported" class="button-container">
+  <div v-if="isSupported" class="container">
     <VPButton
       theme="brand"
       class="button"
@@ -33,7 +33,7 @@ const { text, copy, isSupported } = useClipboard();
       @click="copy(discord)"
     />
   </div>
-  <div v-else class="button-container">
+  <div v-else class="container">
     <VPButton
       theme="brand"
       class="button"
@@ -58,8 +58,9 @@ const { text, copy, isSupported } = useClipboard();
 <style scoped>
 .button {
   margin: 6px;
+  text-decoration: none;
 }
-.button-container {
+.container {
   margin: -6px;
 }
 </style>

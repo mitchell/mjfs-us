@@ -1,4 +1,4 @@
-# TV Time
+# TV Time (Whip Media)
 
 ## Backend Engineer
 

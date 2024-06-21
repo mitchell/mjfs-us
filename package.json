@@ -27,6 +27,7 @@
     "format": "prettier -w .",
     "lint": "eslint .",
     "check": "bun run format && bun run lint && bun run typecheck",
-    "clean": "rm -rf ./.vitepress/cache/ ./.vitepress/dist/"
+    "clean": "rm -rf ./.vitepress/cache/ ./.vitepress/dist/",
+    "git:add": "bun run check && git add -p"
   }
 }

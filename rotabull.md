@@ -10,11 +10,9 @@ engineering lead and primary architect.
 
 ## Technologies
 
-- Elixir
-- C#
-- Typescript
-- React.js
-- Phoenix Framework
+- Phoenix (Elixir)
+- React.js (TypeScript)
+- .NET (C#)
 - PostgreSQL
 - OracleDB
 - SQL Server

@@ -15,9 +15,8 @@ semi-automated deployment via OTA updates.
 
 ## Technologies
 
-- React-Native
-- TypeScript
-- Swift iOS Native Modules
-- Java Android Native Modules
+- React-Native (TypeScript)
+- iOS Native Modules (Swift)
+- Android Native Modules (Java)
 - Serverless (AWS Lambda)
 - AWS DynamoDB & AppConfig

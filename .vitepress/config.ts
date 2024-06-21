@@ -25,7 +25,12 @@ export default defineConfig({
       },
       {
         text: "Personal Projects",
-        items: [{ text: "mjfs.us", link: "/mjfs-us" }],
+        items: [
+          { text: "mjfs.us", link: "/mjfs-us" },
+          { text: "mjfs.us (Old)", link: "/mjfs-us-react" },
+          { text: "lambdarouter", link: "/lambdarouter" },
+          { text: "selfpass", link: "/selfpass" },
+        ],
       },
     ],
 
