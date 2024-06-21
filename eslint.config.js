@@ -1,13 +1,15 @@
 import globals from "globals";
-import pluginJs from "@eslint/js";
-import tseslint from "typescript-eslint";
-import pluginVue from "eslint-plugin-vue";
+import js from "@eslint/js";
+import ts from "typescript-eslint";
+import vue from "eslint-plugin-vue";
+import prettier from "eslint-config-prettier";
 
 export default [
   { files: ["**/*.{js,mjs,cjs,ts,vue}"] },
   { ignores: [".vitepress/dist", ".vitepress/cache"] },
   { languageOptions: { globals: globals.browser } },
-  pluginJs.configs.recommended,
-  ...tseslint.configs.recommended,
-  ...pluginVue.configs["flat/essential"],
+  js.configs.recommended,
+  ...ts.configs.recommended,
+  ...vue.configs["flat/recommended"],
+  prettier,
 ];
