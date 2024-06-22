@@ -10,11 +10,11 @@ hero:
 features:
   - title: Web
     details:
-      Designed, developed, and deployed multiple full-stack web applications. Using
-      technologies like React.js, Ruby on Rails, Phoenix (Elixir), and Golang.
+      Designed, developed, and deployed several full-stack web applications and backend services.
+      Using technologies like React.js, Phoenix Framework, and Golang.
   - title: Mobile
     details:
-      Extensive React-Native experience through several green-field projects and an active app store
+      Extensive React-Native experience through multiple green-field projects and an app/play store
       listing with thousands of daily active users.
   - title: DevOps
     details:
