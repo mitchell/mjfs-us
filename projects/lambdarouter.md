@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import RepoButton from "./components/RepoButton.vue";
+import RepoButton from "../components/RepoButton.vue";
 </script>
 
 # lambdarouter

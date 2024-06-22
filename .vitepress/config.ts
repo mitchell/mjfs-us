@@ -9,7 +9,7 @@ export default defineConfig({
     siteTitle: "mjfs.us",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Experience", link: "/mystro" },
+      { text: "Experience", link: "/jobs/mystro" },
       { text: "Contact", link: "/contact" },
     ],
 
@@ -17,19 +17,19 @@ export default defineConfig({
       {
         text: "Work Experience",
         items: [
-          { text: "Mystro", link: "/mystro" },
-          { text: "Rotabull", link: "/rotabull" },
-          { text: "TV Time", link: "/tv-time" },
-          { text: "Hypremium", link: "/hypremium" },
+          { text: "Mystro", link: "/jobs/mystro" },
+          { text: "Rotabull", link: "/jobs/rotabull" },
+          { text: "TV Time", link: "/jobs/tv-time" },
+          { text: "Hypremium", link: "/jobs/hypremium" },
         ],
       },
       {
         text: "Personal Projects",
         items: [
-          { text: "mjfs.us", link: "/mjfs-us" },
-          { text: "mjfs.us (Old)", link: "/mjfs-us-react" },
-          { text: "lambdarouter", link: "/lambdarouter" },
-          { text: "selfpass", link: "/selfpass" },
+          { text: "mjfs.us", link: "/projects/mjfs-us" },
+          { text: "mjfs.us (Old)", link: "/projects/mjfs-us-react" },
+          { text: "lambdarouter", link: "/projects/lambdarouter" },
+          { text: "selfpass", link: "/projects/selfpass" },
         ],
       },
     ],

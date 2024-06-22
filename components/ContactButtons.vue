@@ -10,6 +10,8 @@ const formattedDiscord = "zettam on Discord";
 const discordLink = "https://discord.com/users/145338365133193226/";
 
 const { text, copy, isSupported } = useClipboard();
+
+const copiedMsg = (text: string) => `Copied ${text} to clipboard`;
 </script>
 
 <template>
@@ -17,19 +19,19 @@ const { text, copy, isSupported } = useClipboard();
     <VPButton
       theme="brand"
       class="button"
-      :text="text === email ? `Copied ${email}` : email"
+      :text="text === email ? copiedMsg(email) : 'E-mail'"
       @click="copy(email)"
     />
     <VPButton
       theme="alt"
       class="button"
-      :text="text === phone ? `Copied ${phone}` : formattedPhone"
+      :text="text === phone ? copiedMsg(phone) : 'Phone'"
       @click="copy(phone)"
     />
     <VPButton
       theme="alt"
       class="button"
-      :text="text === discord ? `Copied ${discord}` : formattedDiscord"
+      :text="text === discord ? copiedMsg(discord) : 'Discord'"
       @click="copy(discord)"
     />
   </div>

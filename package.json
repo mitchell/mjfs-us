@@ -20,9 +20,9 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "dev": "bun vitepress dev",
-    "build": "bun vitepress build",
-    "preview": "bun vitepress preview",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
     "typecheck": "bunx vue-tsc",
     "format": "prettier -w .",
     "lint": "eslint .",

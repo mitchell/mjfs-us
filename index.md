@@ -14,8 +14,8 @@ features:
       technologies like React.js, Ruby on Rails, Phoenix (Elixir), and Golang.
   - title: Mobile
     details:
-      Extensive React-Native experience through production-level projects used by
-      thousands of users to this day.
+      Extensive React-Native experience through several green-field projects and an active app store
+      listing with thousands of daily active users.
   - title: DevOps
     details:
       A love of automation and a start in system administration helps me stay interested in
