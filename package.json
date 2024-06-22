@@ -20,12 +20,12 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview",
-    "typecheck": "bunx vue-tsc",
-    "format": "prettier -w .",
-    "lint": "eslint .",
+    "dev": "bunx --bun vitepress dev",
+    "build": "bunx --bun vitepress build",
+    "preview": "bunx --bun vitepress preview",
+    "typecheck": "bunx --bun vue-tsc",
+    "format": "bunx --bun prettier -w .",
+    "lint": "bunx --bun eslint .",
     "check": "bun run format && bun run lint && bun run typecheck",
     "clean": "rm -rf ./.vitepress/cache/ ./.vitepress/dist/",
     "git:add": "bun run check && git add -p"

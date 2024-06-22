@@ -7,6 +7,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "mjfs.us",
+
+    head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+
     nav: [
       { text: "Home", link: "/" },
       { text: "Experience", link: "/jobs/mystro" },
