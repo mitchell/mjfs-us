@@ -1,16 +1,11 @@
 <script setup lang="ts">
 import { VPButton } from "vitepress/theme";
-const props = defineProps<{ href: string }>();
+const { href } = defineProps<{ href: string }>();
 </script>
 
 <template>
   <div class="container">
-    <VPButton
-      theme="brand"
-      text="Repository"
-      class="button"
-      :href="props.href"
-    />
+    <VPButton theme="brand" text="Repository" class="button" :href />
   </div>
 </template>
 
