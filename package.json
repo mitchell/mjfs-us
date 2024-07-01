@@ -5,7 +5,7 @@
   "devDependencies": {
     "@eslint/js": "^9.5.0",
     "@types/bun": "latest",
-    "@vueuse/components": "^10.11.0",
+    "@vue/typescript-plugin": "^2.0.24",
     "@vueuse/core": "^10.11.0",
     "eslint": "9.x",
     "eslint-config-prettier": "^9.1.0",
@@ -20,12 +20,12 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "dev": "bunx --bun vitepress dev",
-    "build": "bunx --bun vitepress build",
+    "dev": "bun --bun vitepress dev",
+    "build": "bun --bun vitepress build",
     "preview": "caddy file-server --listen :5173 --root ./.vitepress/dist/",
     "typecheck": "bunx --bun vue-tsc",
-    "format": "bunx --bun prettier -w .",
-    "lint": "bunx --bun eslint .",
+    "format": "bun --bun prettier -w .",
+    "lint": "bun --bun eslint .",
     "check": "bun run format && bun run lint && bun run typecheck",
     "clean": "rm -rf ./.vitepress/cache/ ./.vitepress/dist/",
     "git:add": "bun run check && git add -p"
