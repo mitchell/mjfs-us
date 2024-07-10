@@ -4,17 +4,20 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Mitchell Simon",
   description: "Software Engineer",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "mjfs.us",
-
-    head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
     nav: [
       { text: "Home", link: "/" },
       { text: "Experience", link: "/jobs/mystro" },
       { text: "Contact", link: "/contact" },
-      { text: "Git", link: "http://git.mjfs.us/explore/repos" },
+      {
+        text: "Git",
+        link: "http://git.mjfs.us/explore/repos",
+        target: "_self",
+      },
     ],
 
     sidebar: [

@@ -1,6 +1,6 @@
 # Mystro
 
-## Lead Developer
+## Chief Engineer
 
 #### July 2022 - Present
 
