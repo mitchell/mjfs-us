@@ -14,6 +14,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Experience", link: "/jobs/mystro" },
       { text: "Contact", link: "/contact" },
+      { text: "Git", link: "http://git.mjfs.us/explore/repos" },
     ],
 
     sidebar: [
